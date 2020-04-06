@@ -2,7 +2,6 @@ int yourAge(int yearInCE);
 
 String yourAreYoung(int age);
 String yourAreYoung(int age, String ageString);
-
 String numberToText(int age);
 
 void setup() {
