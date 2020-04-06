@@ -1,11 +1,11 @@
-String primeNumber(int maxNumber) 
-{
+ String primeNumber(int maxNumber) 
+ {
     int check = 0;
     String result;
     for (int i = 2; i <= maxNumber; i++) 
     {
         bool prime = true;
-        for (int j =2 ;j*j <= i ; j++)
+        for (int j =2 ;j*j <= i ; j++) 
         {
             if(i % j == 0)
             {
@@ -29,4 +29,4 @@ String primeNumber(int maxNumber)
         }
     }
     return result;
-} 
+}
