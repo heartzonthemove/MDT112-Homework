@@ -1,5 +1,4 @@
-String numberToText(int age) 
-{
+String numberToText(int age) {
   String result;
   if (age == 1) {
     result = "one";
